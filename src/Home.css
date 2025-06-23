@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+    
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px 50px;
+  position: relative;
+   background-color: rgb(250, 249, 249);
+ margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 45px;
+}
+
+
+
+.navbar .nav-links {
+  flex: 2;
+  text-align: center;
+}
+
+ .navbar .nav-links button {
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(2, 154, 154);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  border: none;
+ 
+}
+
+.navbar .nav-links button:hover{
+    color: rgb(5, 152, 84);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section1{
+    display: flex;
+      background-color: rgb(250, 249, 249);
+      height: 600px;
+}
+.section1 .sectionA {
+    width: 500px;
+    height: fit-content;
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 600px;
+}
+
+.section1 .sectionA h3{
+    color: rgb(2, 154, 154);
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.section1 .sectionA p{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(79, 73, 73);
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.section1 .sectionA ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.section1 .sectionA h4{
+    margin-top: 35px;
+    font-size: 19px;
+}
+.section1 .sectionA button{
+     display: inline-block;
+  padding: 12px 28px;
+  background-color: rgb(2, 154, 154); 
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0.5, 0.5, 0.5, 0.5);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.section1 .sectionA button:hover{
+    background-color: rgb(5, 152, 84);
+}
+@keyframes bounce {
+  10%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+ .section1 .sectionA button{
+  animation: bounce 5s infinite;
+}
+
+.section1 .sectionB{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 50px;
+}
+
+.section1 .sectionB img{
+    width: 700px;  
+    height: 600px;
+    border-radius: 5px;
+}
+
+.banner{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 202, 202);
+}
+.banner h2{
+    color: rgb(2, 154, 154);
+    font-size: 22px;
+    margin-top: 30px;
+}
+.banner .search{
+  align-items: center;
+   margin-top: 100px;
+  margin-left: 38%;
+}
+.banner select{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: grey;
+    background: transparent;
+
+}
+.banner select option{
+    color: grey;
+    padding: 10px;
+    background-color: transparent;
+}
+.banner .btn{
+display: inline-block;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  background-color: rgb(2, 154, 154); 
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0.5, 0.5, 0.5, 0.5);
+  margin-top: 20px;
+ margin-bottom: 20px;
+ width: 250px;
+    height: 50px
+}
