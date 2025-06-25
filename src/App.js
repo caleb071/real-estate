@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Contact from './contact';

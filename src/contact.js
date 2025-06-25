@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope, faCrosshairs } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import './contact.css';
@@ -42,10 +44,10 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-
-      {/* Contact Form */}
+<div className="body">
+      
       <div className='section1'>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className="form">
         <h2>Send us a message</h2>
         <input type="text" name="user_name" placeholder="Your Name" required /><br></br>
          <input type="number" name="user_contact" placeholder="Your contact" required /><br></br>
@@ -53,6 +55,26 @@ const Contact = () => {
         <textarea name="message" placeholder="Your Message" required /><br></br>
         <button type="submit">Send</button>
       </form>
+      </div>
+
+      <div className="section2">
+      <h2>Contact Information</h2>
+
+      <p>Our team is available Monday through Saturday from 7:00 AM to 8:00 PM EAT.</p>
+
+      <div className="details">Location:<br></br>
+      <FontAwesomeIcon icon={faCrosshairs} />123 Kenyatta Avenue<br></br>
+Nairobi, 00100<br></br>
+Kenya<br></br>
+</div>
+<div className="phone">Telephone<br></br>
+<FontAwesomeIcon icon={faPhone} /> +254 732 005 004</div>
+<div className="email">Email<br></br>
+<FontAwesomeIcon icon={faEnvelope} />info@Calebian investments.com</div>
+
+      
+
+      </div>
       </div>
 
 

@@ -9,6 +9,7 @@ import mansion6 from './assets/mansion6.jpeg';
 import mansion7 from './assets/mansion7.png';
 import mansion8 from './assets/mansion8.jpeg';
 import walpaper from './assets/walpaper.jpg';
+
 import './Home.css';
 
 function Home() {
@@ -39,7 +40,7 @@ function Home() {
 <div className="section1">
 <div className="sectionA">
   <h3>Invest with Confidence. Own with Pride.</h3>
-  <p>At [Calebian Properties], we connect you to premium properties with verified ownership, flexible payment terms, and unmatched value. 
+  <p>At <span>Calebian Properties</span>, we connect you to premium properties with verified ownership, flexible payment terms, and unmatched value. 
     From residential homes to investment-ready plots, 
     your perfect asset is just a click away.</p>
 
@@ -52,11 +53,9 @@ function Home() {
     <h4>Luxury isn’t just a style — it’s a standard. Let us help you own it.</h4>
     <button>View Properties</button>
 </div>
-<div className="sectionB">
- <img src={walpaper} alt="walpaper" />
 </div>
 
-</div>
+
 <div className="banner">
   <form className="search">
         <h2>Start your Property search here:</h2>
@@ -70,9 +69,7 @@ function Home() {
         <select>
           <option>Buy property</option>
           <option>Rent propert</option>
-          <option>Kiambu</option>
-          <option>Mombasa</option>
-        </select><br></br>
+           </select><br></br>
 
  <select>
           <option>Land/building</option>
@@ -91,6 +88,7 @@ function Home() {
 
 
 </div>
+
 
    
   
