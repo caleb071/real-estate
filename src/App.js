@@ -6,6 +6,9 @@ import Home from './Home';
 import Contact from './contact';
 import About from './about';
 import Properties from './properties';
+import PropertyDetails from './propertyDetails';
+import { XMarkIcon } from '@heroicons/react/20/solid';
+import Register from './get-started/register';
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/properties" element={<Properties />} />
+      <Route path="/property/:id" element={<PropertyDetails />} />
+      <Route path="/get-started" element={<Register />} /> 
     </Routes>
   );
 }

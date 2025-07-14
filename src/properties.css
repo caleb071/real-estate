@@ -7,6 +7,9 @@
   display: flex;
   gap: 240px;
 }
+.property{
+  text-decoration: none;
+}
 .top select{
   width: 200px;
   height: 40px;
